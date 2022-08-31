@@ -7,3 +7,6 @@ The output of the plan command: anything with a plus sign (+) will be created, a
 Run terraform apply to see the difference between what is currently deployes and what the Terraform code has.
 
 The security group allows incoming TCP requests on port 8080 from any IP.
+
+Terraform will interactively prompt you to enter a value for the server_port input variable because the server_port input variable has no default.
+
