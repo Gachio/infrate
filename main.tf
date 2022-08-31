@@ -48,7 +48,9 @@ variable "server_port" {
   type = number
 }
 
+# output variable for the public ip address
 output "public_ip" {
   value = aws_instance.oneinfra.public_ip
   description = "The public IP address of the web server"
+  sensitive = true
 }
