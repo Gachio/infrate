@@ -10,3 +10,4 @@ The security group allows incoming TCP requests on port 8080 from any IP.
 
 Terraform will interactively prompt you to enter a value for the server_port input variable because the server_port input variable has no default.
 
+Run terraform destroy command to terminate the infrastructure
